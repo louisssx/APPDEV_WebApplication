@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h2>About MVC</h2>
+        <p class="lead">MVC stands for Model-View-Controller, a software architectural pattern commonly used in web development, including in ASP.NET Core applications. It separates an application into three interconnected components, making the code more organized, maintainable, and scalable.</p>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Model</h5>
+                    <p class="card-text">
+                        The Model represents the application's data and business logic. It handles data processing, validation, and communication with the database or other data sources. For example, in a login system, a model might include properties for the username and password and handle the logic for verifying credentials.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">View</h5>
+                    <p class="card-text">
+                        The View is the user interface of the application. It displays data to the user and defines how the content appears on the screen using HTML, CSS, and Razor syntax in ASP.NET. Views are typically designed to show the output from the model in a structured and styled format. For example, a login form displayed on a webpage is part of the view.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Controller</h5>
+                    <p class="card-text">
+                        The Controller acts as the intermediary between the model and the view. It receives user input, processes it (often using the model), and determines which view to return as a response. In essence, the controller controls the flow of the application by responding to user actions, retrieving data from the model, and passing it to the view.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
+        <a href="/Home/Privacy" class="btn btn-outline-secondary">Read Our Privacy Policy</a>
+    </div>
+</div>
